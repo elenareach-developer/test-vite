@@ -24,8 +24,29 @@ function App() {
    <Sidebar />
   <div className="main">
        <Navbar />
-      </div>
-    
+       <div className="row">
+       <div className="card greenBg noTop">
+            <Hero />
+          </div>
+          <main>
+          <div className="card">
+        
+          </div>
+          <h3 id="sell">Best Selling Products</h3>
+                <div className="card add_scroll">
+               
+          </div>
+          </main>
+          <h3 id="about">About</h3>
+          <div className="card">
+            <About />
+          </div>
+          <h3 id="contactUs">Contact Us</h3>
+          <div className="card">
+            <Footer />
+          </div>
+        </div>
+   </div>
     </div>
     </>
   )
