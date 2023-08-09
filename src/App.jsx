@@ -21,7 +21,7 @@ function App() {
           <Home />
         </main>
   </BrowserRouter>*/}
-   <Sidebar />
+   <Sidebar /
   <div className="main">
        <Navbar />
       </div>
